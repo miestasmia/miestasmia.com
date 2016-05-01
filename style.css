@@ -73,7 +73,7 @@ a:hover {
 
 #header {
     padding: 0;
-    background-image: url(images/header.png);
+    background-image: url(images/header.jpg);
     height: calc(100vh);
 }
 #header > h1 {
@@ -116,7 +116,7 @@ a:hover {
     margin: 58.1px 0;
 }
 #divider {
-    background-image: url(images/divider.png);
+    background-image: url(images/divider.jpg);
 }
 #links {
     background-image: url(images/links.png);
