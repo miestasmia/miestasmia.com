@@ -50,6 +50,9 @@ h2 {
     color: #888;
     text-align: center;
 }
+h2 .emoji {
+    height: 32px;
+}
 p {
     text-align: justify;
 }
@@ -99,6 +102,9 @@ a:hover {
     height: 100%;
     padding: 0 48px;
     cursor: pointer;
+}
+#header > ul > li .emoji {
+    width: 48px;
 }
 #header > ul > li > a {
     color: #fff;
