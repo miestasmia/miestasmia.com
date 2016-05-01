@@ -33,7 +33,7 @@ section {
     background-position: center;
 }
 footer {
-    padding: 64px 32px 32px 32px;
+    padding: 32px;
     box-sizing: border-box;
 }
 footer > div {
@@ -110,12 +110,28 @@ a:hover {
     border-bottom: 2px solid #fff;
     margin-top: 1px;
 }
-
-#divider {
-    background-image: url(images/divider.png);
+#divider, #links {
     height: 12.9688vw;
     min-height: 100px;
     margin: 58.1px 0;
+}
+#divider {
+    background-image: url(images/divider.png);
+}
+#links {
+    background-image: url(images/links.png);
+    flex-direction: row;
+    justify-content: center;
+}
+#links > *:not(:last-child) {
+    margin-right: 48px;
+}
+#links * {
+    height: 25%;
+    min-height: 50px;
+}
+#links a {
+    border: none;
 }
 
 

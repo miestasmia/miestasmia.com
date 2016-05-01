@@ -35,7 +35,7 @@ else {
 }
 var localeData = translations[locale];
 
-var texts = $('[data-text]');
+var texts = $('[data-text],[data-href],[data-title]');
 for (var i = 0; i < texts.length; i++) {
     var el = texts[i];
 
@@ -47,6 +47,20 @@ for (var i = 0; i < texts.length; i++) {
             val = val.replace("{" + j + "}", replacements[j]);
         el.innerHTML = val;
         twemoji.parse(el);
+    }
+    if (el.dataset.href) {
+        var val = localeData[el.dataset.href]
+        var replacements = translationReplacements[el.dataset.href];
+        for (var j in replacements)
+            val = val.replace("{" + j + "}", replacements[j]);
+        el.href = val;
+    }
+    if (el.dataset.title) {
+        var val = localeData[el.dataset.title]
+        var replacements = translationReplacements[el.dataset.title];
+        for (var j in replacements)
+            val = val.replace("{" + j + "}", replacements[j]);
+        el.title = val;
     }
 }
 

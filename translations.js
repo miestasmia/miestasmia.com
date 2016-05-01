@@ -31,7 +31,11 @@ var translations = {
         gpgFingerprint: "GPG Fingerprint:",
         footer: "Made with pride 🌈 and love ❤ by Jonatan Nordentoft",
         copyright: "© Jonatan Nordentoft {0}",
-        copyrightLinkText: "GNU Public License v3 or later"
+        copyrightLinkText: "GNU Public License v3 or later",
+        twitterURL: "{0}Locercus",
+        twitter: "Twitter",
+        github: "Github",
+        medium: "Medium"
     },
     da: {
         name: "Jonatan Nordentoft",
@@ -48,7 +52,11 @@ var translations = {
         gpgFingerprint: "GPG-fingeraftryk:",
         footer: "Lavet med pride 🌈 og kærlighed ❤ af Jonatan Nordentoft",
         copyright: "© Jonatan Nordentoft {0}",
-        copyrightLinkText: "GNU Public License v3 eller nyere"
+        copyrightLinkText: "GNU Public License v3 eller nyere",
+        twitterURL: "{0}Locercus",
+        twitter: "Twitter",
+        github: "Github",
+        medium: "Medium"
     },
     eo: {
         name: "Jonatan Nordentoft",
@@ -65,13 +73,20 @@ var translations = {
         gpgFingerprint: "GPG-fingropremo:",
         footer: "Farita per fiero 🌈 kaj amo ❤ de Jonatan Nordentoft",
         copyright: "© Jonatan Nordentoft {0}",
-        copyrightLinkText: "GNU Publika Permesilo v3 aŭ pli nova"
+        copyrightLinkText: "GNU Publika Permesilo v3 aŭ pli nova",
+        twitterURL: "{0}LocercusEO",
+        twitter: "Tvitero",
+        github: "Githubo",
+        medium: "Mediumo"
     },
     emoji: {
         
     }
 };
 var translationReplacements = {
+    twitterURL: [
+        'https://twitter.com/'
+    ],
     aboutText2: [
         '<a href="https://jonn.me/kocakote">',
         '</a>'
