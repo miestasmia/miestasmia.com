@@ -22,8 +22,11 @@ html, body {
 }
 section, footer {
     width: 100%;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
     align-items: center;
 }
 section {
@@ -85,7 +88,9 @@ a:hover {
     color: #fff;
 }
 #header > ul {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     list-style: none;
     background-color: rgba(0, 0, 0, .5);
@@ -96,7 +101,9 @@ a:hover {
     margin-top: auto;
 }
 #header > ul > li {
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
     font-family: lato, sans-serif;
     height: 100%;
@@ -126,7 +133,9 @@ a:hover {
 }
 #links {
     background-image: url(images/links.jpg);
+    -webkit-flex-direction: row;
     flex-direction: row;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 #links > *:not(:last-child) {
