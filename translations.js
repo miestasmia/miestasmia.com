@@ -68,7 +68,7 @@ var translations = {
         aboutText2: "Mi estas studanto plentempa, sed multe da tempo havas por pri interesaj projektoj labori. Mi ĉefe mian energion en proprajn projektojn metas, sed iam laboris pri, kaj pretas labori pri, liberaprogramaraj projektoj de aliuloj. Se vi iom spertan ellaboranton aŭ tradukiston bezonas, diru al mi, eble mi pretus helpi se tio kion vi faras sufiĉe interesas. Mi fluas kaj angle kaj dane, iom spertas Esperante kaj {0}eĉ propran lingvon kreis{1}.",
         contactMe: "Kontakti min",
         contactSub: "Mi amus kun vi paroli. Jen kiel",
-        contact1: "Vi povas al mi direktan mesaĝon Tvitere sendi. Mi estas {0}LocercusEO{1}@LocercusEO{2}.",
+        contact1: "Vi povas al mi rektan mesaĝon Tvitere sendi. Mi estas {0}LocercusEO{1}@LocercusEO{2}.",
         contact2: "Se vi ion pli privatan bezonas, bonvolu al mi retmesaĝon sendi per {0}. Bonvole uzu OpenPGP-on kiam vi min kontaktas; mi verŝajne vian mesaĝon ignorus se vi ne ĝin ĉifris kaj subskribis. Mia spamfiltrilo ankaŭ iom avidas, sed iu ajn OpenPGP-a retmesaĝo plusenditos. Vi {1}ĉi tie{2} mian publikan ŝlosilon trovi povas.",
         gpgFingerprint: "GPG-fingropremo:",
         footer: "Farita per fiero 🌈 kaj amo ❤ de Jonatan Nordentoft",
