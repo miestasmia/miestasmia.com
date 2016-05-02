@@ -48,7 +48,7 @@ var translations = {
         contactMe: "Kontakt mig",
         contactSub: "Jeg vil hjertens gerne snakke med dig. Her er hvordan",
         contact1: "Du kan sende mig en DM på Twitter. Jeg er {0}Locercus{1}@Locercus{2}.",
-        contact2: "Hvis du har brug for noget lidt mere privat, så send endelig en e-mail til {0}. Vær venlig at bruge OpenPGP når du kontakter mig; jeg kommer nok til at ignorere din e-mail hvis du ikke enkrypterer og undskriver den. Mit spam-filter er også noget grådigt, men al OpenPGP-mail ryger direkte igennem. Du kan finde min public key {1}her{2}.",
+        contact2: "Hvis du har brug for noget lidt mere privat, så send endelig en e-mail til {0}. Vær venlig at bruge OpenPGP når du kontakter mig; jeg kommer nok til at ignorere din e-mail hvis du ikke enkrypterer og underskriver den. Mit spam-filter er også noget grådigt, men al OpenPGP-mail ryger direkte igennem. Du kan finde min public key {1}her{2}.",
         gpgFingerprint: "GPG-fingeraftryk:",
         footer: "Lavet med pride 🌈 og kærlighed ❤ af Jonatan Nordentoft",
         copyright: "© Jonatan Nordentoft {0}",
