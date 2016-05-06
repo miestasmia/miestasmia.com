@@ -35,7 +35,8 @@ var translations = {
         twitterURL: "{0}Locercus",
         twitter: "Twitter",
         github: "Github",
-        medium: "Medium"
+        medium: "Medium",
+        cookies: "This website uses cookies to improve your experience. If you do not consent to this use of cookies, please disable them in your browser."
     },
     da: {
         name: "Jonatan Nordentoft",
@@ -56,7 +57,8 @@ var translations = {
         twitterURL: "{0}Locercus",
         twitter: "Twitter",
         github: "Github",
-        medium: "Medium"
+        medium: "Medium",
+        cookies: "Denne hjemmeside bruger cookies til at forbedre din oplevelse. Hvis du ikke accepterer denne brug af cookies, så vær venlig at slå dem fra i din browser."
     },
     eo: {
         name: "Jonatan Nordentoft",
@@ -77,7 +79,8 @@ var translations = {
         twitterURL: "{0}LocercusEO",
         twitter: "Tvitero",
         github: "Githubo",
-        medium: "Mediumo"
+        medium: "Mediumo",
+        cookies: "Ĉi tiu retejo uzas kuketojn por plibonigi vian sperton. Se vi ne konsentas ĉi tiun uzadon, bonvole elŝaltu ilin en via retumilo."
     },
     emoji: {
         name: "Jonatan Nordentoft",
@@ -98,7 +101,8 @@ var translations = {
         twitterURL: "{0}Locercus",
         twitter: "🐦",
         github: "🐙",
-        medium: "🇲"
+        medium: "🇲",
+        cookies: "This website uses cookies to improve your experience. If you do not consent to this use of cookies, please disable them in your browser."
     }
 };
 var translationReplacements = {
