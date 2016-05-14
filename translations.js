@@ -66,7 +66,7 @@ var translations = {
         contact: "Kontakti",
         aboutMe: "Pri mi",
         aboutSub: "Mi nomiĝas Jono, aĝas 17 jarojn kaj faras softvarigon kaj lingvistikon",
-        aboutText1: "Mi havas multajn interesojn, i.a. softvarigon (kaj ttt limigite), verkadon, ĉifradajn rajtojn, GNU+Linukson kaj Esperanton, sed ili ofte ŝanĝiĝas ĉar mi provi novajn aferojn tiom amas. Simple, mi amas aferojn krei, certe se ili al aliaj homoj plaĉas.",
+        aboutText1: "Mi havas multajn interesojn, i.a. softvarigon (kaj ttt limigite), verkadon, ĉifradajn rajtojn, GNU+Linukson kaj Esperanton, sed ili ofte ŝanĝiĝas ĉar mi provi novajn aferojn tiom amas. Simple, mi amas aferojn krei, precipe se ili al aliaj homoj plaĉas.",
         aboutText2: "Mi estas studanto plentempa, sed multe da tempo havas por pri interesaj projektoj labori. Mi ĉefe mian energion en proprajn projektojn metas, sed iam laboris pri, kaj pretas labori pri, liberaprogramaraj projektoj de aliuloj. Se vi iom spertan ellaboranton aŭ tradukiston bezonas, diru al mi, eble mi pretus helpi se tio kion vi faras sufiĉe interesas. Mi fluas kaj angle kaj dane, iom spertas Esperante kaj {0}eĉ propran lingvon kreis{1}.",
         contactMe: "Kontakti min",
         contactSub: "Mi amus kun vi paroli. Jen kiel",
