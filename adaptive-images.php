@@ -13,7 +13,7 @@
 /* CONFIG ----------------------------------------------------------------------------------------------------------- */
 
 $resolutions   = array(2560, 2048, 1920, 1382, 992, 768, 480); // the resolution break-points to use (screen widths, in pixels)
-$cache_path    = "jonn.me/ai-cache"; // where to store the generated re-sized images. Specify from your document root!
+$cache_path    = "miestasmia.com/ai-cache"; // where to store the generated re-sized images. Specify from your document root!
 $jpg_quality   = 75; // the quality of any generated JPGs on a scale of 0 to 100
 $sharpen       = TRUE; // Shrinking images can blur details, perform a sharpen on re-scaled images?
 $watch_cache   = TRUE; // check that the adapted image isn't stale (ensures updated source images are re-cached)
