@@ -116,7 +116,7 @@ var translationReplacements = {
     ],
     contact2: [
         '<a href="mailto:mia@miestasmia.com">mia@miestasmia.com</a>',
-        '<a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xDFD05D5CC77FD65E">',
+        '<a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xC599C3EBC2FA3C8E">',
         '</a>'
     ],
     copyright: [
