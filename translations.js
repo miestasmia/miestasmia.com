@@ -22,7 +22,7 @@ var translations = {
         aboutMe: "About me",
         aboutSub: "My name is Mia, I'm 18 years old and I do software development and linguistics",
         aboutText1: "I have many interests, including software development (and web to a limited degree), writing, digital rights, GNU+Linux and Esperanto, but they change a lot, as I'm driven by trying out new things. I really just like creating stuff, especially if they have some sort of value to other people.",
-        aboutText2: "I'm a full-time student, but have plenty of spare time to work on exciting projects. I mainly put my energy into my own projects, but have previously worked on, and am willing to work on, free software projects of others. If you need a somewhat experienced developer or just a translator, give me a shout, I might be willing to help out if what you're doing is interesting. I'm fluent in English and Danish, fairly skilled in Esperanto and {0}have even made my own constructed language{1}.",
+        aboutText2: "I'm a full-time student, but have plenty of spare time to work on exciting projects. I mainly put my energy into my own projects, but have previously worked on, and am willing to work on, free software projects of others. If you need a somewhat experienced developer or just a translator, give me a shout, I might be willing to help out if what you're doing is interesting. I'm fluent in English and Danish and fairly skilled in Esperanto.",
         contactMe: "Contact me",
         contactSub: "I'd love to speak to you. Here's how",
         contact1: "You can send me a DM on Twitter. I'm {0}miestasmia{1}@miestasmia{2}.",
@@ -43,7 +43,7 @@ var translations = {
         aboutMe: "Om mig",
         aboutSub: "Jeg hedder Mia, er 18 år og beskæftiger mig med softwareudvikling og lingvistik",
         aboutText1: "Jeg har mange interesser, bl.a. softwareudvikling (og web i mindre grad), at skrive, digitale rettigheder, GNU+Linux og Esperanto, men de ændrer sig meget eftersom jeg er drevet af at prøve nye ting af. Jeg kan egentlig bare godt lide at lave ting, bestemt hvis de har en eller anden form for værdi for andre mennesker.",
-        aboutText2: "Jeg er fuldtidsstuderende, men har masser af tid til at arbejde på interessante projekter. Jeg bruger hovedsageligt min energi på egne projekter, men jeg har tidligere arbejdet på, og er villig til at arbejde på, andres fri-softwareprojekter. Hvis du har brug for en nogenlunde erfaren udvikler eller bare en oversætter, så skriv endelig til mig, jeg er sandsynligvis interesseret i at hjælpe dig, hvis hvad du laver er interessant. Jeg kan flydende engelsk og dansk, er forholdvist god til Esperanto og {0}har endda lavet mit eget konstruerede sprog{1}.",
+        aboutText2: "Jeg er fuldtidsstuderende, men har masser af tid til at arbejde på interessante projekter. Jeg bruger hovedsageligt min energi på egne projekter, men jeg har tidligere arbejdet på, og er villig til at arbejde på, andres fri-softwareprojekter. Hvis du har brug for en nogenlunde erfaren udvikler eller bare en oversætter, så skriv endelig til mig, jeg er sandsynligvis interesseret i at hjælpe dig, hvis hvad du laver er interessant. Jeg kan flydende engelsk og dansk, og er forholdvist god til Esperanto.",
         contactMe: "Kontakt mig",
         contactSub: "Jeg vil hjertens gerne snakke med dig. Her er hvordan",
         contact1: "Du kan sende mig en DM på Twitter. Jeg er {0}miestasmia{1}@miestasmia{2}.",
@@ -64,7 +64,7 @@ var translations = {
         aboutMe: "Pri mi",
         aboutSub: "Mi nomiĝas Mia, aĝas 18 jarojn kaj faras softvarigon kaj lingvistikon",
         aboutText1: "Mi havas multajn interesojn, i.a. softvarigon (kaj ttt limigite), verkadon, ĉifradajn rajtojn, GNU+Linukson kaj Esperanton, sed ili ofte ŝanĝiĝas ĉar mi provi novajn aferojn tiom amas. Simple, mi amas aferojn krei, precipe se ili al aliaj homoj plaĉas.",
-        aboutText2: "Mi estas studantino plentempa, sed multe da tempo havas por pri interesaj projektoj labori. Mi ĉefe mian energion en proprajn projektojn metas, sed iam laboris pri, kaj pretas labori pri, liberaprogramaraj projektoj de aliuloj. Se vi iom spertan ellaboranton aŭ tradukiston bezonas, diru al mi, eble mi pretus helpi se tio kion vi faras sufiĉe interesas. Mi fluas kaj angle kaj dane, iom spertas Esperante kaj {0}eĉ propran lingvon kreis{1}.",
+        aboutText2: "Mi estas studantino plentempa, sed multe da tempo havas por pri interesaj projektoj labori. Mi ĉefe mian energion en proprajn projektojn metas, sed iam laboris pri, kaj pretas labori pri, liberaprogramaraj projektoj de aliuloj. Se vi iom spertan ellaboranton aŭ tradukiston bezonas, diru al mi, eble mi pretus helpi se tio kion vi faras sufiĉe interesas. Mi fluas kaj angle kaj dane, kaj iom spertas Esperante.",
         contactMe: "Kontakti min",
         contactSub: "Mi amus kun vi paroli. Jen kiel",
         contact1: "Vi povas al mi rektan mesaĝon Tvitere sendi. Mi estas {0}miestasmiaeo{1}@miestasmiaeo{2}.",
@@ -85,7 +85,7 @@ var translations = {
         aboutMe: "🔁👩",
         aboutSub: "👉👩1⃣8️⃣️💻🌐",
         aboutText1: "🖐🕴💻✍🔐🐧💚🔁❤🏭📦❓😀❤",
-        aboutText2: "🎓🕴🖐📅😯👔👈🕴😀👉🗽💿👉👨‍👨‍👧‍👦❤❗🇺🇸🇩🇰💚👩🏢🙌",
+        aboutText2: "🎓🕴🖐📅😯👔👈🕴😀👉🗽💿👉👨‍👨‍👧‍👦❤❗🇺🇸🇩🇰💚👩",
         contactMe: "✍👉👩",
         contactSub: "👩❤",
         contact1: "❤👉👩📞👉❓",
@@ -104,10 +104,6 @@ var translations = {
 var translationReplacements = {
     twitterURL: [
         'https://twitter.com/'
-    ],
-    aboutText2: [
-        '<a href="https://miestasmia.com/kocakote">',
-        '</a>'
     ],
     contact1: [
         '<a href="https://twitter.com/',
