@@ -20,9 +20,10 @@ var translations = {
         about: "About",
         contact: "Contact",
         aboutMe: "About me",
-        aboutSub: "My name is Mia, I'm 19 years old and I do software development and linguistics",
-        aboutText1: "I have many interests, including software development (and web to a limited degree), writing, digital rights, GNU+Linux and Esperanto, but they change a lot, as I'm driven by trying out new things. I really just like creating stuff, especially if they have some sort of value to other people.",
-        aboutText2: "I'm currently very busy working on various projects, but if you have something interesting going on do let me know. I mainly put my energy into my own projects, but have previously worked on, and am willing to work on, free software projects of others. If you need a somewhat experienced developer or just a translator, give me a shout, I might be willing to help out if what you're doing is interesting. I'm fluent in English, Danish and Esperanto.",
+        aboutSub: "My name is Mia, I'm 19 years old and I do software development, linguistics and lots of other things",
+        aboutText1: "Among other things, I'm interested in literature, technology, education and equality in various different fields—mainly languages and LGBT+. I really just like to create stuff of value to other people",
+        aboutText2: "I'm currently really busy with various projects, but do let me know if you have something interesting going on! I speak fluent Danish, Esperanto and English.",
+        aboutText3: "I'm president of {0}the Danish Esperanto Youth (DEJO){1} and represent Denmark in the committee of {2}the World Esperanto Youth Organization{3}, which is where I spent the majority of my time on activism.",
         contactMe: "Contact me",
         contactSub: "I'd love to speak to you. Here's how",
         contact1: "You can send me a DM on Twitter. I'm {0}miestasmia{1}@miestasmia{2}.",
@@ -34,16 +35,16 @@ var translations = {
         twitterURL: "{0}miestasmia",
         twitter: "Twitter",
         github: "Github",
-        medium: "Medium",
-        cookies: "This website uses cookies to improve your experience. If you do not consent to this use of cookies, please disable them in your browser."
+        medium: "Medium"
     },
     da: {
         about: "Om mig",
         contact: "Kontakt",
         aboutMe: "Om mig",
-        aboutSub: "Jeg hedder Mia, er 19 år og beskæftiger mig med softwareudvikling og lingvistik",
-        aboutText1: "Jeg har mange interesser, bl.a. softwareudvikling (og web i mindre grad), at skrive, digitale rettigheder, GNU+Linux og Esperanto, men de ændrer sig meget eftersom jeg er drevet af at prøve nye ting af. Jeg kan egentlig bare godt lide at lave ting, bestemt hvis de har en eller anden form for værdi for andre mennesker.",
-        aboutText2: "Jeg har i øjeblikket meget travlt med forskellige projekter, men lad mig endelig høre, hvis du har noget interessant. Jeg bruger hovedsageligt min energi på egne projekter, men jeg har tidligere arbejdet på, og er villig til at arbejde på, andres fri-softwareprojekter. Hvis du har brug for en nogenlunde erfaren udvikler eller bare en oversætter, så skriv endelig til mig, jeg er sandsynligvis interesseret i at hjælpe dig, hvis hvad du laver er interessant. Jeg kan flydende engelsk, dansk og esperanto.",
+        aboutSub: "Jeg hedder Mia, er 19 år og beskæftiger mig med softwareudvikling, lingvistik og mange andre forskellige ting",
+        aboutText1: "Jeg interesserer mig blandt andet for litteratur, teknologi, undervisning og ligestilling indenfor forskellige områder—hovedsagelig sprog og LGBT+. Jeg kan egentlig bare godt lide at skabe ting, der bringer værdi for andre mennesker.",
+        aboutText2: "I øjeblikket har jeg meget travlt med forskellige projekter, men lad mig endelig høre, hvis du har gang i noget interessant! Jeg kan flydende dansk, esperanto og engelsk.",
+        aboutText3: "Jeg er forperson for {0}Ungdomsforeningen for Esperanto (DEJO){1} og repræsenterer Danmark i komitéen hos {2}Den Verdensomspændende Esperanto-Ungdomsorganisation{3}, hvor jeg bruger det meste af min tid på aktivisme.",
         contactMe: "Kontakt mig",
         contactSub: "Jeg vil hjertens gerne snakke med dig. Her er hvordan",
         contact1: "Du kan sende mig en DM på Twitter. Jeg er {0}miestasmia{1}@miestasmia{2}.",
@@ -55,29 +56,28 @@ var translations = {
         twitterURL: "{0}miestasmia",
         twitter: "Twitter",
         github: "Github",
-        medium: "Medium",
-        cookies: "Denne hjemmeside bruger cookies til at forbedre din oplevelse. Hvis du ikke accepterer denne brug af cookies, så vær venlig at slå dem fra i din browser."
+        medium: "Medium"
     },
     eo: {
         about: "Pri mi",
         contact: "Kontakti",
         aboutMe: "Pri mi",
-        aboutSub: "Mi nomiĝas Mia, aĝas 19 jarojn kaj faras programadon kaj lingvistikon",
-        aboutText1: "Mi havas multajn interesojn, i.a. programadon (kaj ttt limigite), verkadon, ĉifradajn rajtojn, GNU+Linukson kaj esperanton, sed ili ofte ŝanĝiĝas ĉar mi provi novajn aferojn tiom amas. Simple, mi amas aferojn krei, precipe se ili al aliaj homoj plaĉas.",
-        aboutText2: "Mi nune tre okupiĝas pri diversaj projektoj, sed se vi havas ion interesan nepre sciigu min. Mi ĉefe mian energion en proprajn projektojn metas, sed iam laboris pri, kaj pretas labori pri, liberaprogramaraj projektoj de aliuloj. Se vi iom spertan ellaboranton aŭ tradukiston bezonas, diru al mi, eble mi pretus helpi se tio kion vi faras sufiĉe interesas. Mi fluas angle, dane kaj esperante.",
+        aboutSub: "Mi nomiĝas Mia, aĝas 19 jarojn kaj faras programadon, lingvistikon kaj multajn aliajn aferojn",
+        aboutText1: "Mi interalie interesiĝas pri literaturo, teknologio, edukado kaj egaleco kadre de diversaj kampoj—ĉefe lingvoj kaj GLAT+. Verdire mi simple ŝatas krei aferojn, kiuj portas valoron al aliaj homoj.",
+        aboutText2: "Mi nune estas sufiĉe okupita pri diversaj projektoj, sed nepre sciigu min se vi faras ion interesan! Mi flue parolas la danan, Esperanton kaj la anglan.",
+        aboutText3: "Mi estas prezidanto de {0}Dana Esperantista Junulara Organizo (DEJO){1} kaj komitatano A de Danio en {2}Tutmonda Esperantista Junulara Organizo (TEJO){3}, kie mi ĉefe min okupas pri aktivismo.",
         contactMe: "Kontakti min",
-        contactSub: "Mi amus kun vi paroli. Jen kiel",
-        contact1: "Vi povas al mi rektan mesaĝon Tvitere sendi. Mi estas {0}miestasmiaeo{1}@miestasmiaeo{2}.",
-        contact2: "Se vi ion pli privatan bezonas, bonvolu al mi retmesaĝon sendi per {0}. Bonvole uzu OpenPGP-on kiam vi min kontaktas, specife se tio kion vi sendas estu sekreta. Vi povas trovi mian publikan ŝlosilon {1}ĉi tie{2}.",
+        contactSub: "Mi amus paroli kun vi. Jen kiel",
+        contact1: "Vi povas sendi min rektan mesaĝon per Tvitero. Mi estas {0}miestasmiaeo{1}@miestasmiaeo{2}.",
+        contact2: "Se vi preferus ion pli privatan, bonvolu sendi al mi retmesaĝon al {0}. Bonvolu uzi OpenPGP kiam vi kontaktas min, precipe se tio kion vi sendas estu sekreta. Mia publika ŝlosilo troviĝas {1}ĉi tie{2}.",
         gpgFingerprint: "GPG-fingropremo:",
         footer: "Farita per fiero 🌈 kaj amo ❤ de Mia Nordentoft",
         copyright: "© Mia Nordentoft {0}",
         copyrightLinkText: "GNU Publika Permesilo v3 aŭ pli nova",
         twitterURL: "{0}miestasmiaeo",
-        twitter: "Tvitero",
-        github: "Githubo",
-        medium: "Mediumo",
-        cookies: "Ĉi tiu retejo uzas kuketojn por plibonigi vian sperton. Se vi ne konsentas ĉi tiun uzadon, bonvole elŝaltu ilin en via retumilo."
+        twitter: "Twitter",
+        github: "Github",
+        medium: "Medium"
     },
     emoji: {
         about: "🔁👩",
@@ -97,11 +97,16 @@ var translations = {
         twitterURL: "{0}miestasmia",
         twitter: "🐦",
         github: "🐙",
-        medium: "🇲",
-        cookies: "This website uses cookies to improve your experience. If you do not consent to this use of cookies, please disable them in your browser."
+        medium: "🇲"
     }
 };
 var translationReplacements = {
+    aboutText3: [
+        '<a href="https://dejo.dk">',
+        '</a>',
+        '<a href="http://tejo.org">',
+        '</a>'
+    ],
     twitterURL: [
         'https://twitter.com/'
     ],

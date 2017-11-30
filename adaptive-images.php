@@ -76,6 +76,7 @@ function sendErrorImage($message) {
   $requested_uri  = parse_url(urldecode($_SERVER['REQUEST_URI']), PHP_URL_PATH);
   $requested_file = basename($requested_uri);
   $source_file    = $document_root.$requested_uri;
+  $user = posix_getpwuid(posix_geteuid())['name'];
 
   if(!is_mobile()){
     $is_mobile = "FALSE";
@@ -96,6 +97,7 @@ function sendErrorImage($message) {
   ImageString($im, 3, 5, 145, "REQUESTED FILE WAS: $requested_file", $text_color);
   ImageString($im, 3, 5, 165, "SOURCE FILE IS: $source_file", $text_color);
   ImageString($im, 3, 5, 185, "DEVICE IS MOBILE? $is_mobile", $text_color);
+  ImageString($im, 3, 5, 205, "ACTIVE USER: $user", $text_color);
 
   header("Cache-Control: no-store");
   header('Expires: '.gmdate('D, d M Y H:i:s', time()-1000).' GMT');
