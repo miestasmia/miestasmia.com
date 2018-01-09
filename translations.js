@@ -121,6 +121,6 @@ var translationReplacements = {
         '</a>'
     ],
     copyright: [
-        '2013–2017'
+        '2013–2018'
     ]
 };
