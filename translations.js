@@ -68,7 +68,7 @@ var translations = {
         aboutText3: "Mi estas prezidanto de {0}Dana Esperantista Junulara Organizo (DEJO){1} kaj komitatano A de Danio en {2}Tutmonda Esperantista Junulara Organizo (TEJO){3}, kie mi ĉefe min okupas pri aktivismo.",
         contactMe: "Kontakti min",
         contactSub: "Mi amus paroli kun vi. Jen kiel",
-        contact1: "Vi povas sendi min rektan mesaĝon per Tvitero. Mi estas {0}miestasmiaeo{1}@miestasmiaeo{2}.",
+        contact1: "Vi povas sendi al mi rektan mesaĝon per Tvitero. Mi estas {0}miestasmiaeo{1}@miestasmiaeo{2}.",
         contact2: "Se vi preferus ion pli privatan, bonvolu sendi al mi retmesaĝon al {0}. Bonvolu uzi OpenPGP kiam vi kontaktas min, precipe se tio kion vi sendas estu sekreta. Mia publika ŝlosilo troviĝas {1}ĉi tie{2}.",
         gpgFingerprint: "GPG-fingropremo:",
         footer: "Farita per fiero 🌈 kaj amo ❤ de Mia Nordentoft",
