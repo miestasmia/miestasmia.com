@@ -19,6 +19,9 @@ var $ = function() {
     return document.querySelectorAll.apply(document, arguments);
 };
 
+if (!twemoji)
+    var twemoji = { parse: () => {} }
+
 var locale = 'en';
 
 // Set locale
