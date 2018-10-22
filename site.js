@@ -19,9 +19,6 @@ var $ = function() {
     return document.querySelectorAll.apply(document, arguments);
 };
 
-if (!twemoji)
-    var twemoji = { parse: () => {} }
-
 var locale = 'en';
 
 // Set locale
@@ -49,7 +46,6 @@ for (var i = 0; i < texts.length; i++) {
         for (var j in replacements)
             val = val.replace("{" + j + "}", replacements[j]);
         el.innerHTML = val;
-        twemoji.parse(el);
     }
     if (el.dataset.href) {
         var val = localeData[el.dataset.href]
@@ -66,6 +62,18 @@ for (var i = 0; i < texts.length; i++) {
         el.title = val;
     }
 }
+
+var likedThingEl = $('#likedThing')[0];
+var likedThingI = 0;
+var setLikedThing = function() {
+    likedThingEl.textContent = localeData.likedThings[likedThingI];
+
+    likedThingI++;
+    if (likedThingI >= localeData.likedThings.length)
+        likedThingI = 0;
+};
+setLikedThing();
+window.setInterval(setLikedThing, 3000);
 
 var menuItems = $('#header > ul > li');
 for (var i = 0; i < menuItems.length; i++) {

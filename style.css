@@ -109,9 +109,6 @@ a:hover {
     padding: 0 48px;
     cursor: pointer;
 }
-#header > ul > li .emoji {
-    width: 48px;
-}
 #header > ul > li > a {
     color: #fff;
     font-size: 25px;
@@ -146,6 +143,19 @@ a:hover {
 }
 #links a {
     border: none;
+}
+
+
+#likedThing {
+    display: inline-block;
+    text-align: left;
+    width: 330px;
+    color: #999;
+
+    padding-bottom: 3px;
+    border-bottom: 2px dashed #888;
+
+
 }
 
 
