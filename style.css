@@ -154,6 +154,7 @@ a:hover {
     height: 1.4em;
     color: #999;
     overflow: hidden;
+    vertical-align: top;
 }
 
 #likedThing::after {
