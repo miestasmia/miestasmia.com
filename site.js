@@ -65,15 +65,36 @@ for (var i = 0; i < texts.length; i++) {
 
 var likedThingEl = $('#likedThing')[0];
 var likedThingI = 0;
-var setLikedThing = function() {
-    likedThingEl.textContent = localeData.likedThings[likedThingI];
+var currentThing = null;
+
+var nextLikedThing = function() {
+    if (currentThing) {
+        var item = currentThing;
+        currentThing.addEventListener('transitionend', function() {
+            likedThingEl.removeChild(item);
+        });
+        currentThing.style.transform = 'translateY(-1.4em)';
+    }
+
+    currentThing = document.createElement('div');
+    currentThing.className = 'likedItem';
+    currentThing.style.transform = 'translateY(1.4em)';
+    currentThing.textContent = localeData.likedThings[likedThingI];
+    likedThingEl.appendChild(currentThing);
+
+    window.requestAnimationFrame(function() {
+        currentThing.classList.add('animated');
+        window.requestAnimationFrame(function(){
+            currentThing.style.transform = '';
+        });
+    });
 
     likedThingI++;
     if (likedThingI >= localeData.likedThings.length)
         likedThingI = 0;
 };
-setLikedThing();
-window.setInterval(setLikedThing, 3000);
+nextLikedThing();
+window.setInterval(nextLikedThing, 3000);
 
 var menuItems = $('#header > ul > li');
 for (var i = 0; i < menuItems.length; i++) {

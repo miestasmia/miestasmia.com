@@ -148,16 +148,37 @@ a:hover {
 
 #likedThing {
     display: inline-block;
+    position: relative;
     text-align: left;
     width: 330px;
+    height: 1.4em;
     color: #999;
-
-    padding-bottom: 3px;
-    border-bottom: 2px dashed #888;
-
-
+    overflow: hidden;
+    vertical-align: top;
 }
 
+#likedThing::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.2em;
+    border-bottom: 2px dashed #888;
+}
+
+#likedThing .likedItem {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1em;
+    z-index: 1;
+}
+
+#likedThing .likedItem.animated {
+    transition: transform 0.3s cubic-bezier(0.2, 0.3, 0, 1);
+}
 
 @media (max-width: 1500px) {
     #header > img {
