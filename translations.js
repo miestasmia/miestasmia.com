@@ -23,7 +23,7 @@ var translations = {
         aboutSub: "My name is Mia and I'm really into {0}",
         aboutText1: "Among other things, I'm interested in technology, education, and equality in various different fields—mainly languages and LGBT+. I really just like to create stuff that matters to other people.",
         aboutText2: "I'm currently really busy with various projects, but do let me know if you have something interesting going on! I speak fluent Danish, Esperanto and English.",
-        aboutText3: "I'm president of {0}the Danish Esperanto Youth (DEJO){1} and represent Denmark and currently work at {2}the World Esperanto Youth Organization{3} in the Netherlands.",
+        aboutText3: "I'm president of {0}the Danish Esperanto Youth (DEJO){1} currently work at {2}the World Esperanto Youth Organization{3} in the Netherlands.",
         contactMe: "Contact me",
         contactSub: "I'd love to speak to you. Here's how",
         contact1: "You can send me a DM on Twitter. I'm {0}miestasmia{1}@miestasmia{2}.",
