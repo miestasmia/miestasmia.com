@@ -58,7 +58,7 @@ var translations = {
         aboutSub: "Jeg hedder Mia og kan virkelig godt lide {0}",
         aboutText1: "Jeg interesserer mig blandt andet for teknologi, undervisning og ligestilling indenfor forskellige områder—hovedsagelig sprog og LGBT+. Jeg kan egentlig bare godt lide at skabe ting, der bringer værdi for andre mennesker.",
         aboutText2: "I øjeblikket har jeg meget travlt med forskellige projekter, men lad mig endelig høre, hvis du har gang i noget interessant! Jeg kan flydende dansk, esperanto og engelsk.",
-        aboutText3: "Jeg er forperson for {0}Ungdomsforeningen for Esperanto (DEJO){1} og arbejder for {2}Den Verdens­omspændende Esperanto-Ungdomsorganisation{3} i nederlandene.",
+        aboutText3: "Jeg er forperson for {0}Dansk Esperanto Ungdomsforening (DEJO){1} og arbejder for {2}Den Verdens­omspændende Esperanto-Ungdomsorganisation{3} i nederlandene.",
         contactMe: "Kontakt mig",
         contactSub: "Jeg vil hjertens gerne snakke med dig. Her er hvordan",
         contact1: "Du kan sende mig en DM på Twitter. Jeg er {0}miestasmia{1}@miestasmia{2}.",
