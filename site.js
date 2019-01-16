@@ -22,8 +22,8 @@ var $ = function() {
 var locale = 'en';
 
 // Set locale
-if (path[2] in translations)
-    locale = path[2];
+if (path[1] in translations)
+    locale = path[1];
 else {
     for (var i in navigator.languages) {
         var l = navigator.languages[i].split('-')[0];
