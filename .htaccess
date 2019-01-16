@@ -14,11 +14,10 @@
 # along with miestasmia.com.  If not, see <http://www.gnu.org/licenses/>.
 
 
-<IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine On
 
-  RewriteRule ^(en|eo|da|emoji)/?$ /miestasmia.com/index.html
+  RewriteRule ^(en|eo|da)/?$ /index.html
 
   # Adaptive-Images -----------------------------------------------------------------------------------
   # © Matt Vilcox https://creativecommons.org/licenses/by/3.0/
@@ -38,4 +37,3 @@
   RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
 
   # END Adaptive-Images -------------------------------------------------------------------------------
-</IfModule>
