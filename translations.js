@@ -146,6 +146,6 @@ var translationReplacements = {
         '</a>'
     ],
     copyright: [
-        '2013–2018'
+        '2013–' + new Date().getFullYear()
     ]
 };
