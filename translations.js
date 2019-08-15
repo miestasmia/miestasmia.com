@@ -24,6 +24,7 @@ var translations = {
         aboutText1: "Among other things, I'm interested in technology, education, and equality in various different fields—mainly languages and LGBT+. I really just like to create stuff that matters to other people.",
         aboutText2: "I'm currently really busy with various projects, but do let me know if you have something interesting going on! I speak fluent Danish, Esperanto and English.",
         aboutText3: "I'm president of {0}the Danish Esperanto Youth (DEJO){1} and currently work at {2}the World Esperanto Youth Organization{3} in the Netherlands.",
+        aboutText4: "My resumé can be found {0}here{1}.",
         contactMe: "Contact me",
         contactSub: "I'd love to speak to you. Here's how",
         contact1: "You can send me a DM on Twitter. I'm {0}miestasmia{1}@miestasmia{2}.",
@@ -59,6 +60,7 @@ var translations = {
         aboutText1: "Jeg interesserer mig blandt andet for teknologi, undervisning og ligestilling indenfor forskellige områder—hovedsagelig sprog og LGBT+. Jeg kan egentlig bare godt lide at skabe ting, der bringer værdi for andre mennesker.",
         aboutText2: "I øjeblikket har jeg meget travlt med forskellige projekter, men lad mig endelig høre, hvis du har gang i noget interessant! Jeg kan flydende dansk, esperanto og engelsk.",
         aboutText3: "Jeg er forperson for {0}Dansk Esperanto Ungdomsforening (DEJO){1} og arbejder for {2}Den Verdens­omspændende Esperanto-Ungdomsorganisation{3} i nederlandene.",
+        aboutText4: "Mit CV kan findes {0}her{1}.",
         contactMe: "Kontakt mig",
         contactSub: "Jeg vil hjertens gerne snakke med dig. Her er hvordan",
         contact1: "Du kan sende mig en DM på Twitter. Jeg er {0}miestasmia{1}@miestasmia{2}.",
@@ -94,6 +96,7 @@ var translations = {
         aboutText1: "Mi interesiĝas interalie pri teknologio, edukado, kaj egaleco kadre de diversaj kampoj—ĉefe lingvoj kaj GLAT+. Verdire mi simple ŝatas krei aferojn, kiun valoras aliaj homoj.",
         aboutText2: "Mi nune estas sufiĉe okupita pri diversaj projektoj, sed nepre sciigu min se vi faras ion interesan! Mi flue parolas la danan, Esperanton kaj la anglan.",
         aboutText3: "Mi estas prezidanto de {0}Dana Esperantista Junulara Organizo (DEJO){1} kaj laboras ĉe {2}Tutmonda Esperantista Junulara Organizo (TEJO){3} en Nederlando.",
+        aboutText4: "Mia vivresumo estas legebla {0}tie ĉi{1}.",
         contactMe: "Kontakti min",
         contactSub: "Mi amus paroli kun vi. Jen kiel",
         contact1: "Vi povas sendi al mi rektan mesaĝon per Tvitero. Mi estas {0}miestasmia{1}@miestasmia{2}.",
@@ -130,6 +133,10 @@ var translationReplacements = {
         '<a href="https://dejo.dk">',
         '</a>',
         '<a href="http://tejo.org">',
+        '</a>'
+    ],
+    aboutText4: [
+        '<a href="https://miestasmia.com/files/cv.pdf">',
         '</a>'
     ],
     twitterURL: [
