@@ -37,19 +37,11 @@ var translations = {
         twitter: "Twitter",
         github: "Github",
         likedThings: [
-            "lingustic rights",
-            "nature",
-            "global education",
-            "going zero waste",
             "linguistics",
             "software engineering",
             "tea",
-            "intersectional feminism",
-            "free software",
-            "open access",
-            "Esperanto",
-            "queer stuff",
-            "travelling"
+            "digitalization",
+            "Esperanto"
         ]
     },
     da: {
@@ -73,19 +65,11 @@ var translations = {
         twitter: "Twitter",
         github: "Github",
         likedThings: [
-            "sproglige rettigheder",
-            "naturen",
-            "global uddannelse",
-            "zero waste",
             "lingvistik",
             "software-udvikling",
             "te",
-            "intersektionel feminisme",
-            "fri software",
-            "open access",
-            "esperanto",
-            "queer-ting",
-            "at rejse"
+            "digitalisering",
+            "esperanto"
         ]
     },
     eo: {
@@ -109,19 +93,11 @@ var translations = {
         twitter: "Twitter",
         github: "Github",
         likedThings: [
-            "lingvajn rajtojn",
-            "naturon",
-            "universalan edukadon",
-            "nulan malŝparon",
             "lingvistikon",
-            "programadon",
+            "komputikon",
             "teon",
-            "intersekcan feminismon",
-            "liberan programadon",
-            "malferman atingon",
-            "Esperanton",
-            "kvirajn aferojn",
-            "vojaĝadon"
+            "ciferecigon",
+            "Esperanton"
         ]
     }
 };
